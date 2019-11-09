@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #fff;
+  min-height: 100vh;
+  font-size: large;
+  line-height: 1.6;
+}
+
+/* Top Navigation */
+.navbar {
+  background: rgb(51, 51, 51);
+}
+.navbar-toggler {
+  border: none;
+  outline: none !important;
+  color: white;
+}
+.social {
+  text-decoration: none !important;
+  color: lightgray;
+}
+.social :hover {
+  color: white;
+}
+
+/* Sub menu */
+.menu {
+  border-bottom: 1.2px solid #dddddd;
+}
+.menu-link {
+  color: black;
+  text-decoration: none;
+}
+.menu-active {
+  border-bottom: 1.5px solid orangered;
+}
+
+/* form */
+.form {
+  background-color: #f8f8f8;
+  padding: 2rem;
+}
+
+/* contact-info */
+.contact-info-box {
+  background-color: lightgrey;
+  padding: 2rem;
+}

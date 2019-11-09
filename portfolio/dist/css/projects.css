@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #fff;
+  min-height: 100vh;
+  font-size: large;
+  line-height: 1.6;
+}
+
+/* Top Navigation */
+.navbar {
+  background: rgb(51, 51, 51);
+}
+.navbar-toggler {
+  border: none;
+  outline: none !important;
+  color: white;
+}
+.social {
+  text-decoration: none !important;
+  color: lightgray;
+}
+.social :hover {
+  color: white;
+}
+
+/* Dashboard */
+.card-img-top {
+  height: 21rem;
+}
+.footer-link {
+  text-decoration: none;
+  color: darkgray;
+}
+.footer-link :hover {
+  color: black;
+}
+
+/* sub menu */
+.menu {
+  border-bottom: 1.2px solid #dddddd;
+}
+.menu-link {
+  color: black;
+  text-decoration: none;
+}
+.menu-active {
+  border-bottom: 1.5px solid orangered;
+}
+
+.well {
+  border-left: 5px solid orange;
+}
+
+/* projects */
+.card-img {
+  height: 12rem;
+}
